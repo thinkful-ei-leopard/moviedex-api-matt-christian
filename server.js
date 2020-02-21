@@ -58,5 +58,5 @@ app.use((error, req, res, next) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log('Listening at port 8000');
+  console.log(`Server running on port ${process.env.PORT}`);
 });
